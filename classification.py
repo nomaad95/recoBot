@@ -40,16 +40,15 @@ def classification(img):
     return output
 
 
-def tweet(result):
+def tweet(img):
+
+    conv = classification(img)
     reco = []
-    for obj in result[0]:
+    for obj in conv[0]:
         reco.append(category.get(obj).get("name"))
     obj = reco[0]
-    score = int(result[2][0]*100)
-    tweet = str(obj) +" "+ str(score)+"%"
+    score = int(conv[2][0]*100)
+    tweet = "@Archillect "+str(obj) +" "+ str(score)+"%"
     return tweet
 
 
-conv = classification('img.jpg')
-a = tweet(conv)
-print(a)
