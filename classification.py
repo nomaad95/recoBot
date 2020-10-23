@@ -49,6 +49,7 @@ def tweet(result):
     tweet = str(obj) +" "+ str(score)+"%"
     return tweet
 
+
 conv = classification('img.jpg')
 a = tweet(conv)
 print(a)
