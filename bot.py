@@ -1,3 +1,4 @@
+import time
 import shutil
 import requests
 import tweepy
@@ -26,22 +27,27 @@ print(user.name)
 
 last_tweet = ""
 while(True):
+    print("waiting...")
     status = api.user_timeline("archillect", count=1)[0]
-    for media in status.entities.get("media",[{}]):
-        if media.get("type",None) == "photo" and status.id != last_tweet:
-            last_tweet = status.id
-            tweet_id = status.id
-            print(tweet_id)
-            print(media["media_url"])
-            image = requests.get(media["media_url"])
-            if image.status_code==200:
-                image.raw.decode_content=True
-                with open("arch.jpg",'wb') as f:
-                    f.write(image.content)
-                    reply = tweet('arch.jpg')
-                    api.update_status(reply, tweet_id)
-                    print(reply)
-                    print("waiting...")
+    if last_tweet != status.id:
+        last_tweet = status.id
+        for media in status.entities.get("media",[{}]):
+            if media.get("type",None) == "photo":
+                tweet_id = status.id
+                print(tweet_id)
+                print(media["media_url"])
+                image = requests.get(media["media_url"])
+                if image.status_code==200:
+                    image.raw.decode_content=True
+                    with open("arch.jpg",'wb') as f:
+                        f.write(image.content)
+                        reply = tweet('arch.jpg')
+                        api.update_status(reply, tweet_id)
+                        print(reply)
+                        print("waiting...")
+                        time.sleep(60)
 
-            else:
-                print("coudn't download")
+                else:
+                    print("coudn't download")
+    else:
+        time.sleep(60)
