@@ -10,7 +10,7 @@ from signature import *
 
 recobot()
 
-
+print("ok")
 keys = key() # No offense but I am not confortable with sharing my API keys on github...
 auth = tweepy.OAuthHandler(keys[0], keys[1])
 auth.set_access_token(keys[2], keys[3])
@@ -48,6 +48,6 @@ while(True):
                         time.sleep(60)
 
                 else:
-                    print("coudn't download")
-    else:
-        time.sleep(60)
+                    print("coudn't download") 
+            else:
+                time.sleep(60)
