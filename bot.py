@@ -49,5 +49,5 @@ while(True):
 
                 else:
                     print("coudn't download") 
-            else:
-                time.sleep(60)
+    else:
+        time.sleep(60)
