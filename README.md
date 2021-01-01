@@ -7,7 +7,7 @@
 							</path>
 						</svg>
 					</a>Project Title</h1>
-	<p>The aim of this project is to carry on object classification based on images published by "The occular engine" named "Archillect" on Twitter<br/>
+	<p>The aim of this project is to carry on object classification based on images published by "The occular engine" named "Archillect" on Twitter
 
 	Each 30 minutes, Archillect's last tweet is taken and recoBot answers to him with the proboability of what he recognizes according to him<br/><br/>
 
