@@ -9,14 +9,9 @@
 					</a>Recobot</h1>
 	<p>The aim of this project is to carry on object classification based on images published by "The occular engine" named "Archillect" on Twitter
 	Each 30 minutes, Archillect's last tweet is taken and recoBot answers to him with the proboability of what he recognizes according to him<br/><br/>
-	To do so, a Raspberry server is connected to twitter using Twitter API. Each 30 minutes, it takes last Arhillect's tweet and gives it to <br/><br/>
+	To do so, a Raspberry server is connected to twitter using Twitter API. Each 30 minutes, it takes last Arhillect's tweet and gives it to
 	a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Lite).
-
-
-
-	To do so, a Raspberry server is connected to twitter using Twitter API. Each 30 minutes, it takes last Arhillect's tweet and gives it to 
-
-	a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Lite).</p>
+</p>
 	<h2>
 		<a id="user-content-getting-started" class="anchor" aria-hidden="true" href="#getting-started">
 			<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
