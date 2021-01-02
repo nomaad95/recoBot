@@ -24,9 +24,6 @@
 		-A Python3 interpreter<br/><br/>
 		-Pip3 as Python package manager
 		</p>
-
-
-
 	<h3>
 		<a id="user-content-prerequisites" class="anchor" aria-hidden="true" href="#prerequisites">
 			<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
@@ -36,7 +33,8 @@
 		</a>Prerequisites</h3>
 	<p>In order to work recoBot needs some dependencies:</p>
 
-		-Requests<br/>
+		-Requests
+		<br/>
 		-tweepty<br/>
 		<br/>
 		-Tensorflow<br/></p>
