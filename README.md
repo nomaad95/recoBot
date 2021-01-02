@@ -77,7 +77,7 @@
 	</code></pre>
 
 	<a>Now you can have informations of what archillect is posting in real time <br/><br/>
-	 <!---
+	 <!-
 	<ul>
 	<li><a href="http://www.dropwizard.io/1.0.2/docs/" rel="nofollow">Dropwizard</a> - The web framework used</li>
 	<li><a href="https://maven.apache.org/" rel="nofollow">Maven</a> - Dependency Management</li>
