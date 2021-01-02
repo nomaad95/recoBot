@@ -32,10 +32,8 @@
 			</svg>
 		</a>Prerequisites</h3>
 	<p>In order to work recoBot needs some dependencies:<br/>
-	-Requests
-	<br/>
-	-tweepty<br/>
-	<br/>
+	-Requests<br/><br/>
+	-tweepty<br/><br/>
 	-Tensorflow<br/></p>
 <!--
 
