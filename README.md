@@ -12,7 +12,7 @@
 	To do so, a Raspberry server is connected to twitter using Twitter API. Each 30 minutes, it takes last Arhillect's tweet and gives it to <br/><br/>
 
 	a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Lite).
-	<
+	
 
 
 	To do so, a Raspberry server is connected to twitter using Twitter API. Each 30 minutes, it takes last Arhillect's tweet and gives it to <br/><br/>
