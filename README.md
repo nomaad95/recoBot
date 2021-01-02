@@ -31,7 +31,7 @@
 				</path>
 			</svg>
 		</a>Prerequisites</h3>
-	<p>In order to work recoBot needs some dependencies:</p>
+	<p>In order to work recoBot needs some dependencies:
 
 		-Requests
 		<br/>
