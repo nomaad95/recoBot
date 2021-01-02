@@ -33,7 +33,7 @@
 		</a>Prerequisites</h3>
 	<p>In order to work recoBot needs some dependencies:
 
-		-Requests <br/>
+		-Requests
 		<br/>
 		-tweepty<br/>
 		<br/>
