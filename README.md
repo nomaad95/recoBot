@@ -18,7 +18,7 @@
 		-A PC (qui l'eut cru) running on Linux <br/><br/>
 		-A Python3 interpreter<br/><br/>
 		-Pip3 as Python package manager
-		</p>	<!--
+		</p>
 	<h3>
 		<a id="user-content-prerequisites" class="anchor" aria-hidden="true" href="#prerequisites">
 			<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
@@ -72,7 +72,7 @@
 	</code></pre>
 
 	<a>Now you can have informations of what archillect is posting in real time <br/><br/>
-	 <!-
+
 	<ul>
 	<li><a href="http://www.dropwizard.io/1.0.2/docs/" rel="nofollow">Dropwizard</a> - The web framework used</li>
 	<li><a href="https://maven.apache.org/" rel="nofollow">Maven</a> - Dependency Management</li>
