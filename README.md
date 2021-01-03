@@ -63,7 +63,7 @@ The project should now be running and printing informations of archillect in you
 # Author
 Camille Bamboute (looking for a software engineer position)
 
-### Tpis
+### Tips
 Bitcoin jar: 3MsxSrTRHgkXqkuXGWiCNz4GS4Xu58iL1g
 
 
