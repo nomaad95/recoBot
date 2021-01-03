@@ -30,6 +30,6 @@ a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Li
 
 * <code>pip install requests</code>
 
-* pip install tweepy
+* <code>pip install tweepy</code>
 
-* pip install tensorflow
+* <code>pip install tensorflow</code>
