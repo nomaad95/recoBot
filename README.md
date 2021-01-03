@@ -57,6 +57,8 @@ Once you edited apikey.py, run the following command line:
 
 <code>python3 bot.py</code>
 
+The project should now be running and printing informations of archillect in your console
+
 
 # Author
 Camille Bamboute - Junior software engineer
