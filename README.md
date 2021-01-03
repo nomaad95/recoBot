@@ -61,4 +61,10 @@ The project should now be running and printing informations of archillect in you
 
 
 # Author
-Camille Bamboute - Junior software engineer
+Camille Bamboute (looking for a software engineer position)
+
+### Tpis
+Bitcoin jar: 3MsxSrTRHgkXqkuXGWiCNz4GS4Xu58iL1g
+
+
+Dogecoin jar: D9JFfxeDesPfjjBCc7rh1eeS83n72o6Foq
