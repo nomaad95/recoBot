@@ -37,8 +37,26 @@ a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Li
 
 
 
-### About Tweepy
+## About Tweepy
 
 Tweepy is an API wich uses provides Twitter social network datas.
 
 In order to use this API follow the steps to create a developer twitter account right <a href="https://realpython.com/twitter-bot-python-tweepy/#using-tweepyl">here
+
+
+## Deployment
+
+### Caution
+
+You may need to use api keys to use Tweepy. The file bot.py imports another file called "apikey.py".
+Those keys are the ones Twitter gave to you when you created your Twitter developer account. Hence, in order to make that project work you will have to
+fill the list returned by key() with yours.
+
+### Running
+Once you edited apikey.py, run the following command line:
+
+<code>python3 bot.py</code>
+
+
+# Author
+Camille Bamboute - Junior software engineer
