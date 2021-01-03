@@ -28,7 +28,7 @@ a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Li
 
 ##### To do so, run the following command lines:
 
-* pip install requests
+* <code>pip install requests</code>
 
 * pip install tweepy
 
