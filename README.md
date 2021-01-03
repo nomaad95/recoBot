@@ -33,3 +33,12 @@ a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Li
 * <code>pip install tweepy</code>
 
 * <code>pip install tensorflow</code>
+
+
+
+
+### About Tweepy
+
+Tweepy is an API wich uses provides Twitter social network datas.
+
+In order to use this API follow the steps to create a developer twitter account right <a href="https://realpython.com/twitter-bot-python-tweepy/#using-tweepyl">here
