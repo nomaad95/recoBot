@@ -1,5 +1,5 @@
 <div id="file-readme-template-md-readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-	    
+	    <article class="markdown-body entry-content container-lg" itemprop="text">
 				<h1>
 					<a id="user-content-project-title" class="anchor" aria-hidden="true" href="#project-title">
 						<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
@@ -93,5 +93,5 @@
 	<ul>
 	<li>Dogecoin jar: D9JFfxeDesPfjjBCc7rh1eeS83n72o6Foq </li>
 	</ul> -->
-
+	</article>
   </div>
