@@ -18,10 +18,18 @@ a neural network (deployed on the raspberry) using Tensorflow API (Tensorflow Li
 
 ## Prerequisites
 
-### In order to work, recobot needs some Python dependencies:
+#### In order to work, recobot needs some Python dependencies:
 
 * Requests
 
 * Tweepty
 
 * Tensorflow
+
+##### To do so, run the following command lines:
+
+* pip install requests
+
+* pip install tweepy
+
+* pip install tensorflow
